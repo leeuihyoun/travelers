@@ -46,5 +46,5 @@ jobs:
         with:
           app-name: travelers  #각자 맞춰서 바꿔야함(에저 기준)
           slot-name: production
-          publish-profile: ${{ secrets.Lee }}  # 여기도 맞춰서 바꿔야함
+          publish-profile: ${{ secrets.LEE }}  # 여기도 맞춰서 바꿔야함
           package: build/libs/traveler-0.0.1-SNAPSHOT.jar # 이것도 바꿔야함 
