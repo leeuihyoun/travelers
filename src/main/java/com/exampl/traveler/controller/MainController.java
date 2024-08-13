@@ -43,7 +43,7 @@ public class MainController {
     private final NationService nationService;
     //메인페이지 게시판에 5개만 보이게 설정
     @RequestMapping("/")
-    public String main(Model model){
+    public String mainPage(Model model){
         List<BoardVO> board = boardService.getBoard();
         model.addAttribute("board",board);
         List<PackageVO> packages = packageService.getPackages();
